@@ -2,7 +2,7 @@
 
 # I have used a Maven with SpringBoot and Java version 17 and use the database of MySQL.
 # I have used A Spring initializr for creating a project.
-# In this used a Dependency :
+# In this project I have used a Dependency :
 1. Spring Web
 2. Spring Data JPA
 3. MySQL Driver
