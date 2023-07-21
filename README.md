@@ -1,39 +1,32 @@
 # Assignment
 
-# I have used a Maven with SpringBoot and Java version 17 and use the database of MySQL.
-# I have used A Spring initializr for creating a project.
-# In this project I have used a Dependency :
+# Tools and technologies used: SpringBoot with Java version 17, Maven, MySQL as database
+# Used Spring initializr for creating project.
+# Dependencies used
 1. Spring Web
 2. Spring Data JPA
 3. MySQL Driver
 4. Lombok
-# There is the output on Postman App.
-# End Points: 
-GET : localhost:8080/averageSalePriceOverall
+# APIs
 
-GET : localhost:8080/averageSalePricePerLocation
+# Below are the curl as asked - all are GET APIs:
 
-GET : localhost:8080/maxSalePrice
-
-GET : localhost:8080/minSalePrice
-# There are some Rest APIs according to your Assignment :
-
-1. localhost:8080/averageSalePriceOverall :
+1. Average Sale Price Overall :
 
 curl --location 'localhost:8080/averageSalePriceOverall'
 
-output :
+Response :
 {
     "message": "Getting Average successfully !!!!",
 
     "responseBody": "250065.7894736842"
 }
 
-2. localhost:8080/averageSalePricePerLocation :
+2. Average Sale Price group by Location :
 
 curl --location 'localhost:8080/averageSalePricePerLocation' :
 
-output :
+Response :
 {
    
     "message": "Getting Average per Location successfully !!!!",
@@ -42,11 +35,11 @@ output :
 
 }
 
-3. localhost:8080/maxSalePrice :
+3. Max Sale Price :
 
 curl --location 'localhost:8080/maxSalePrice' :
 
-output :
+Response :
 {
     
     "message": "Getting Max SalePrice successfully !!!!",
@@ -54,11 +47,11 @@ output :
     "responseBody": "350000.0"
 }
 
-4. localhost:8080/minSalePrice :
+4. Min Sale Price :
 
 curl --location 'localhost:8080/minSalePrice' :
 
-output :
+Response :
 {
     
     "message": "Getting Min SalePrice successfully !!!!",
