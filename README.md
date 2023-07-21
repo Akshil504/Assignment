@@ -1,7 +1,13 @@
 # Assignment
 
 # I have used a Maven with SpringBoot and Java version 17 and use the database of MySQL.
-# There are the output on Postman App.
+# I have used A Spring initializr for creating a project.
+# In this used a Dependency :
+1. Spring Web
+2. Spring Data JPA
+3. MySQL Driver
+4. Lombok
+# There is the output on Postman App.
 # There are some Rest APIs according to your Assignment :
 
 1. localhost:8080/averageSalePriceOverall :
